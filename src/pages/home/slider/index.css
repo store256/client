@@ -1,0 +1,147 @@
+.homeSlider {
+    padding: 20px 0px;
+}
+
+.home_slider_main {
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50% !important;
+    background: #F2F3F4 !important;
+    z-index: 100 !important;
+}
+
+.slick-arrow.slick-next {
+    right: 2% !important;
+}
+
+.slick-arrow.slick-prev {
+    left: 2% !important;
+}
+
+.slick-arrow:hover {
+    background: #0059b2 !important;
+}
+
+.slick-next:before,
+.slick-prev:before {
+    color: #0059b2;
+}
+
+.slick-arrow:hover::before {
+    color: #fff !important;
+}
+
+.home_slider_main .slick-dots {
+    position: absolute;
+    bottom: 30px !important;
+}
+
+.home_slider_main .slick-dots button::before {
+    width: 10px !important;
+    height: 10px !important;
+    font-size: 14px !important;
+}
+
+.slick-active button:before {
+    color: #0059b2 !important;
+}
+
+.home_slider_main .item {
+    position: relative;
+}
+
+.home_slider_main .item .info {
+    position: absolute;
+    top: 30%;
+    left: 9%;
+    z-index: 100;
+}
+
+.home_slider_main .item .info h2 {
+    font-size: 4.5vw;
+    opacity: 0.9;
+    font-weight: 700;
+    color: #fff;
+    text-align: left;
+    margin: 0px 0px 20px;
+    max-width: 80vw;
+}
+
+.home_slider_main .item .info p {
+    font-size: 2vw;
+    opacity: 0.9;
+    font-weight: 400;
+    color: #ffc908;
+}
+
+.slick-slide img {
+    display: inline;
+}
+
+.banners {
+    padding: 20px 5px;
+}
+
+.banners img {
+    padding: 0px 5px; /* change this */
+    height: 30vh !important;
+}
+
+.homeSlider .orderBtn {
+    width: 60vw;
+    height: 6vh;
+    position: absolute;
+    bottom: 20% !important;
+    left: 10%;
+    z-index: 10;
+}
+
+.homeSlider .orderBtn button {
+    width: 35%;
+    height: 10vh;
+    text-transform: capitalize;
+    border-radius: 30px;
+    font-size: 1.6vw;
+}
+
+@media screen and (max-width: 768px) {
+    .home_slider_main {
+        position: relative;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .home_slider_main .item .info {
+        top: 20%;
+        left: 10%;
+        margin-bottom: 10px !important;
+    }
+
+    .home_slider_main .item .info h2 {
+        font-size: 6vw !important;
+    }
+
+    .home_slider_main .item .info p {
+        font-size: 4vw !important;
+    }
+
+    .homeSlider .orderBtn {
+        display: none !important;
+    }
+
+    .homeSlider .orderBtn button {
+        font-size: 3vw !important;
+    }
+
+    .slick-arrow {
+        display: none !important;
+    }
+}

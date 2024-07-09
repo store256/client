@@ -1,0 +1,49 @@
+.loginWrapper{
+    padding: 40px 0px;
+    background: #f1f1f1;
+}
+
+.loginWrapper .card{
+    width: 400px;
+    margin:auto;
+    padding: 30px;
+    border: 0px !important;
+
+}
+
+
+.loginWrapper .card h3{
+    font-weight: 600;
+
+}
+
+.loginWrapper .card input{
+    height: 20px !important;
+}
+
+.loginWrapper .card .icon
+{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    z-index: 100;
+    min-width: 50px !important;
+    height: 50px !important;
+    width: 50px !important;
+    color: #2a2828 !important;
+    border-radius: 100% !important;  
+}
+.loginWrapper .card button
+{
+    padding: 10px 20px !important;
+}
+.signinOr button {
+    padding: 10px 20px !important;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.signinOr button img{
+    width: 25px !important;
+    margin-right: 15px;
+}

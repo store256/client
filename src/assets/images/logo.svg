@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="250" height="50" viewBox="0 0 250 150">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 86px;
+        filter: url(#filter);
+        fill: #fff;
+        font-family: Arial;
+      }
+
+      .cls-2 {
+        font-size: 273.346px;
+        fill: #0654a0;
+        font-family: "MV Boli";
+      }
+    </style>
+    <filter id="filter" x="71" y="65" width="147" height="31" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#0654a0"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <text id="tore268" class="cls-1" transform="translate(71.243 94.512) scale(0.488)">tore268</text>
+  <text id="s" class="cls-2" transform="matrix(0.481, 0, 0, 0.481, 13.897, 105.372)">s</text>
+  <image x="63" y="93" width="11" height="11" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAYAAACprHcmAAAAqklEQVQYlY3Rr2qCYRQH4EfRYrAIIgy8CkHWl2RBDIa1XYJVq3aLLK0vrGlcXRl6AYNFEfMQ0SDIkU9Q8M/3a+ec5xxeeDO7P8c08IpSUm8wwTu20cglgxZGqDjPEx7Qi25cfsQXCq6ng2HgMZ5vwMgSzSzqd6Dkee3AxRQ4Ug78nxIvA3+ngAt8BB5gdQf3MQs8xQvmF9AaXbxFcfqD1WSphjx+8YmfwxR72xcgWq1KSYMAAAAASUVORK5CYII="/>
+</svg>

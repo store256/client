@@ -1,0 +1,235 @@
+.homeProducts{
+    padding: 25px 0px;
+}
+
+.homeProducts .filterTab{
+    margin-left: auto;
+  
+}
+.filterTab li{
+    margin-left: 10px;
+}
+.filterTab li a{
+    color: #000;
+    text-decoration:none;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    font-weight: 400;
+}
+
+.filterTab li:hover a,.filterTab ul li a.active{
+    color:  #0654A0 !important;
+    transform: translateY(-10px) ;
+}
+
+.homeProducts .productRow{
+    display: flex;
+    padding: 30px  0px;
+    flex-wrap: wrap; 
+}
+
+.homeProducts .productRow .item{
+    width: 25%;
+    padding: 15px 5px;
+}   
+
+
+.homeProductsTitleWrapper .productRow .item{
+    width: 20%;
+   
+}
+.prodSlider {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+  }
+  
+  .prodSlider .item {
+    position: relative;
+    padding: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .prodSlider .item:hover {
+    transform: scale(1.05);
+  }
+  
+  .prodSlider .item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .prodSlider .cursor {
+    cursor: pointer;
+  }
+  
+  .prodSlider .item p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .prodSlider .item .price {
+    font-weight: bold;
+    color: #e74c3c;
+  }
+  
+  .prodSlider .item .oldPrice {
+    text-decoration: line-through;
+    color: #7f8c8d;
+  }
+  
+
+
+
+.topProductsSection{
+    padding: 25px 0px;
+}
+
+.slid-banner{
+    padding: 0px 15px;
+    padding-top: 10px;
+}
+
+.slid-banner img{
+    border-radius: 20px;
+}
+
+
+.productRow .imgWrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.productRow .imgWrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.productRow .no-products-found h5 {
+    color: red;
+    padding: 15px 0px !important;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center; /* Optional: Align the text within the h5 element */
+    font-weight: 400;
+}
+
+
+.banner-lasts {
+    position: relative;
+    overflow: hidden;
+    color: white;
+}
+
+.banner-lasts img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.banner-lasts .info {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    text-align: left;
+    max-width: 90%;
+}
+
+.banner-lasts .info h3.banner-head {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding text shadow for better readability */
+   
+}
+
+.banner-lasts .info p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Adding text shadow for better readability */
+    color: #F4DB33;
+}
+
+.banner-lasts .btn-g {
+    background-color: #0059b2;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.banner-lasts .btn-g:hover {
+    background-color: #003f8a;
+    transform: scale(1.05);
+}
+
+.filterTab .list-inline-item {
+    margin: 5px;
+    padding: 8px 12px; /* Adjust padding for better spacing */
+    background: #0059b2;
+    border-radius: 20px;
+    transition: background 0.3s, transform 0.3s; /* Add transition for smooth hover effect */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add box shadow for a subtle 3D effect */
+    cursor: pointer; /* Indicate clickable items */
+    transform: none !important; 
+}
+
+.filterTab .list-inline-item:hover {
+    background: #004494; /* Slightly darker background on hover */
+    transform: none !important; 
+    color: #fff !important;
+}
+
+.filterTab .list-inline-item a {
+    color: #fff !important;
+    font-size: 14px;
+    text-decoration: none; /* Remove underline */
+    display: block; /* Ensure the anchor takes the full space */
+    text-align: center; /* Center the text */
+    text-transform: capitalize; /* Ensure the text is capitalized */
+}
+.filterTab .list-inline-item a:hover {
+    color: #fff !important;
+    transform: none !important; 
+}
+.filterTab .list-inline-item.active {
+    background: #a64c02; /* Different background for active items */
+    font-weight: bold; /* Highlight active items with bold text */
+}
+
+
+@media screen and (max-width: 768px) {
+    .banner-lasts img {
+        height: 30vh; /* Adjust this value as needed for the desired image height on mobile */
+    }
+
+    .banner-lasts .info {
+        top: 40%;
+        left: 5%;
+        transform: translateY(-40%);
+    }
+
+    .banner-lasts .info h3.banner-head {
+        font-size: 2rem;
+    }
+
+    .banner-lasts .info p {
+        font-size: 1rem;
+    }
+
+    .banner-lasts .btn-g {
+        display: none;
+    }
+}

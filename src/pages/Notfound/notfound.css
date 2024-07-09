@@ -1,0 +1,41 @@
+.notFound{
+    width: 100%;
+    height: auto;
+    padding: 45px 0px;
+
+
+}
+.notFound .box{
+   width: 50%;
+   height: auto;
+   padding: 70px 30px;
+
+   text-align: center;
+   margin: auto;
+}
+
+.notFound .box h1{
+   
+    font-size: 80px;
+    font-weight: 800;
+ 
+ }
+
+ .notFound .box h2{
+    font-size: 30px;
+    font-weight: 800;
+ }
+ .notFound .box p{
+    color: #000;
+    font-size: 18px;
+    margin-top: 10px;
+ 
+ }
+ 
+.notFound .left_4{
+    color: #076467;
+}
+.notFound .right_4{
+    color: #076467;
+}
+

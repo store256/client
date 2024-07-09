@@ -1,0 +1,76 @@
+.cartSection
+{
+    width: 100%;
+    height: auto;
+    padding: 35px 0px;
+
+}
+
+.clear-cart{
+    margin-left: auto;
+    font-weight: 500;
+    cursor: pointer;
+   }
+
+.clear-cart svg{
+    font-size: 18px !important;
+}
+
+.cartWrapper table thead th{
+    background: #f1f1f1;
+    overflow: hidden;
+    
+}
+
+.cartWrapper table tbody tr{
+    margin-top: 20px;
+}
+
+
+.cartWrapper table tbody td{
+    vertical-align: middle;
+    
+}
+
+
+.cartWrapper table tbody td .img{
+    width: 120px;
+    padding: 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 5px;
+   
+}
+
+.cartWrapper table tbody .info{
+    padding-left: 30px;
+}
+
+.cartWrapper table tbody .info a{
+    color: #000;
+    text-decoration: none;
+}
+
+.cartWrapper table tbody .info svg{
+   font-size: 20px !important;
+}
+
+.cartWrapper table tbody td span{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.cartRightBox{
+    padding-left: 150px;
+}
+
+
+.Subtotal{
+    font-size: 18px;
+    color: #4e4d4d;
+    
+}
+
+.subtotal-ml-auto{
+    margin-left: auto;
+    font-size: 16px;
+}

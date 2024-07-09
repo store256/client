@@ -1,0 +1,141 @@
+
+.footerWrapper{
+    width: 100%;
+    margin-bottom: 0px;
+   
+}
+
+footer{
+    padding: 60px 0px;
+    margin-bottom: 20px;
+}
+
+footer p, footer a{
+    font-size: 16px;
+}
+
+footer .part1 svg{
+    font-size: 18px;
+    color:#0654A0;
+   margin-right: 20px;
+    
+}
+
+footer .part2 h4{
+    margin-bottom: 20px;
+    color: #000;
+    font-weight: 500;
+}
+
+footer .part2 ul {
+    padding-left: 0;
+}
+
+footer .part2 ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+footer .part2 ul li a {
+    text-decoration: none;
+    color: #000;
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out;
+}
+
+footer .part2 ul li a:hover {
+    color: #0654a0;
+    opacity: 1;
+    padding-left: 5px;
+}
+
+footer .lastStrip {
+    padding: 15px 0;
+}
+
+footer .lastStrip .part3 h5 {
+    margin-bottom: 0;
+}
+
+footer .lastStrip .part3 ul {
+    margin-bottom: 0;
+    padding-left: 25px;
+}
+
+footer .lastStrip .part3 ul li {
+    display: inline-block; /* Display inline to prevent stacking */
+    margin-right: 10px; /* Adjust spacing between items */
+}
+
+footer .lastStrip .part3 ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background: #0654a0;
+    color: #fff;
+    border-radius: 50%;
+    text-decoration: none; /* Add this to remove underlines */
+}
+
+footer .lastStrip .phNo svg{
+    font-size: 30px !important;
+   margin: 10px;
+   opacity: 0.8;
+}
+footer .lastStrip .phNo h4{
+    font-size: 18px !important;
+    line-height: 20px !important;
+}
+footer .lastStrip .phNo p{
+    font-size: 12px !important;
+    opacity: 0.8;
+}
+
+/* Base styles for the .lastStrip container */
+.services {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping of child elements */
+    overflow-x: auto; /* Enable horizontal scrolling */
+    padding: 10px; /* Optional padding for better appearance */
+  }
+  .lastStrip .service {
+    background-color: #ffffff; /* Background color for each service box */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding inside each service box */
+  }
+  .services::-webkit-scrollbar{
+    display: none !important;
+}
+  
+  .services .col-md-3 {
+    flex: 0 0 auto; /* Prevent flex items from shrinking or growing */
+    min-width: 250px; /* Minimum width to make each item visible */
+    margin-right: 10px; /* Optional margin between items */
+  }
+  
+  /* Styles for mobile view */
+  @media (max-width: 768px) {
+    .services{
+      overflow-x: auto; /* Enable horizontal scrolling */
+      -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS */
+    }
+  
+    .services .col-md-3 {
+      flex: 0 0 auto; /* Prevent flex items from shrinking or growing */
+      min-width: 250px; /* Minimum width to make each item visible */
+      margin-right: 10px; /* Optional margin between items */
+    }
+  
+    /* Adjust spacing for better appearance */
+    .services.phNo {
+      margin: 0 5px;
+    }
+  
+    .services.info {
+      margin-left: 10px;
+    }
+  }
+  

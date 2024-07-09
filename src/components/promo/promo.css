@@ -1,0 +1,79 @@
+.promos {
+    position: relative;
+    overflow: hidden;
+    color: white;
+    padding: 20px 0 !important;
+}
+
+
+.promos img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.promos .info {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    text-align: left;
+    max-width: 90%;
+}
+
+.promos .info h3.banner-head {
+    font-size: 3rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adding text shadow for better readability */
+}
+
+.promos .info p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Adding text shadow for better readability */
+}
+
+.promos .btn-g.shop {
+    background-color: #0059b2;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.promos .btn-g.shop:hover {
+    background-color: #003f8a;
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 768px) {
+    .homeProducts {
+        padding: 0px;
+    }
+    .promos img {
+        height: 30vh !important; /* Adjust this value as needed for the desired image height on mobile */
+        width: 100% !important;
+    }
+
+    .promos .info {
+        top: 40%;
+        left: 5%;
+        transform: translateY(-40%);
+    }
+
+    .promos .info h3.banner-head {
+        font-size: 2rem;
+    }
+
+    .promos .info p {
+        font-size: 1rem;
+    }
+
+    .promos .btn-g.shop {
+        display: none;
+    }
+}

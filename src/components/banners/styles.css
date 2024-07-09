@@ -1,0 +1,113 @@
+.bannerSection{
+    padding: 25px 0px;
+    position: relative;
+}
+
+.bannerSection .box{
+    position: relative;
+   overflow: hidden;
+   border-radius: 15px;
+   cursor: pointer;
+
+   
+}
+
+.bannerSection .box:hover img{
+    transform: scale(1.1);
+}
+
+
+
+.bannerSection .box .info{
+    position: absolute;
+    top: 10%;
+    left: 9%;
+    z-index: 100;
+}
+
+
+.bannerSection .box .info .ease{
+  font-size: 25px !important;
+  color: rgb(201, 164, 17);
+}
+
+.bannerSection .box .info .burden{
+    font-size: 25px !important;
+    color: rgb(201, 164, 17);
+    letter-spacing: 5px;
+    font-weight: 700 !important;
+
+  }
+
+  .bannerSection .box .info .text{
+        font-weight: 300;
+  }
+  
+
+.bannerSection .box .info p{
+    font-size: 20px;
+    opacity: 0.9;
+    font-weight: bold;
+    color: rgba(253, 253, 253, 0.8);
+}
+
+
+.bannerSection .orderBtn {
+    position: absolute;
+    bottom:50px; 
+    z-index: 10;
+}
+
+.bannerSection .orderBtn button {
+    width: 100px; 
+    height: 50px; 
+    text-transform: capitalize;
+    font-size: 12px;
+   
+}
+
+.bannerSection .orderBtn1 {
+    position: absolute;
+    
+    bottom:50px; 
+    z-index: 10;
+}
+
+.bannerSection .orderBtn1 button {
+    width: 100px; 
+    height: 50px; 
+    text-transform: capitalize;
+    font-size: 12px;
+   
+}
+
+
+.bannerSection .orderBtn1 {
+    position: absolute;
+    
+    bottom:50px; 
+    z-index: 10;
+}
+
+.bannerSection .orderBtn1 button {
+    width: 100px; 
+    height: 50px; 
+    text-transform: capitalize;
+    font-size: 12px;
+   
+}
+
+.bannerSection .orderBtn2 {
+    position: absolute;
+    
+    bottom:50px; 
+    z-index: 10;
+}
+
+.bannerSection .orderBtn2 button {
+    width: 100px; 
+    height: 50px; 
+    text-transform: capitalize;
+    font-size: 12px;
+   
+}
